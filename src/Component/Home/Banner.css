@@ -1,0 +1,31 @@
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 500px;
+    margin: 0 20px;
+
+}
+
+.body-container h1 {
+    color: dodgerblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.body-container p {
+    font-size: 20px;
+
+
+}
+
+.left-content img {
+    width: 400px;
+    height: 400px;
+}
+
+.right-content {
+    padding: 40px;
+}

@@ -1,0 +1,16 @@
+.content {
+    text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.img-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-content img{
+width: 500px;
+height: 400px;
+margin-bottom: 40px;
+}
