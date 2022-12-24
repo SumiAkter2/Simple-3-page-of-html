@@ -25,7 +25,22 @@ background-size: cover;
     padding:0  40px;
 }
 /*================================== button================ */
-button {
+button{
+background-color: #5b6abe;
+
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 3px 3px 6px 4px #a7e6aa inset;
+}
+
+/* button {
     color: white;
     cursor: pointer;
     background-color: rgb(116, 189, 6);
@@ -38,10 +53,10 @@ button {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    margin-left: 20px;
-    /* box-shadow: 6px 6px 10px white inset; */
+    margin-left: 20px; */
+    /* */
         /* -6px -6px 12px #ffffff; */
-}
+/* } */
 
 button::before {
     content: '';
