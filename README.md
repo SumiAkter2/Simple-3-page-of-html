@@ -1,6 +1,6 @@
 # A Simple HTML Project
 
-[Live Link](https://simple-3-page-of-html.vercel.app/).
+# [Live Link](https://simple-3-page-of-html.vercel.app/).
 
 ## Technologies:
 
