@@ -58,7 +58,7 @@ background-color: #5b6abe;
         /* -6px -6px 12px #ffffff; */
 /* } */
 
-button::before {
+/* button::before {
     content: '';
     width: 0;
     height: 3em;
@@ -74,7 +74,7 @@ button::before {
 
 button:hover::before {
     width: 9em;
-}
+} */
 .Button{
     margin-left: 0;
     margin-top: 20px;
