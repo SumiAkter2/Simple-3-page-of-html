@@ -2,12 +2,13 @@ import React from "react";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrTwitter } from "react-icons/gr";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
       <h5 style={{ paddingTop: "20px" }}>
-        Copyright &copy; 2022 - All right reserved
+        Copyright &copy; 2022 - All right reserved by GREEN NATURE
       </h5>
       <div className="social-content">
         <p>
@@ -18,7 +19,7 @@ const Footer = () => {
         <p style={{ paddingRight: "20px" }}> |</p>
         <h5> Australia </h5>
         <p style={{ paddingLeft: "20px" }}> |</p>
-        <h5>0000789</h5>
+        <h5><BsFillTelephoneFill/> 0000789</h5>
       </div>
     </div>
   );

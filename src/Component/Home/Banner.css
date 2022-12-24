@@ -9,20 +9,20 @@
 }
 
 .body-container h1 {
-    color: dodgerblue;
+    color: rgb(17, 247, 17);
     font-weight: 600;
     margin-bottom: 30px;
     font-size: 35px;
+    font-family: sans-serif;
 }
 
 .body-container p {
     font-size: 20px;
-
-
+font-family:   sans-serif;
 }
 
 .left-content img {
-    width: 400px;
+    width: 600px;
     height: 400px;
 }
 

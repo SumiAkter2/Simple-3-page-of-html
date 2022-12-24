@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/images/image2.jpg";
+import img from "../../assets/images/pexels-pixabay-70850.jpg";
 import "./Banner.css";
 const Banner = () => {
   return (
@@ -11,7 +11,7 @@ const Banner = () => {
           <img src={img} alt="images" />
         </div>
         <div className="right-content">
-          <h1>Lorem ipsum dolor, sit amet consectetur Dicta mollitia</h1>
+          <h1>Welcome To GREEN NATURE</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
             similique pariatur possimus quaerat incidunt rem, minima impedit

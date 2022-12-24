@@ -10,7 +10,7 @@
     align-items: center;
 }
 .nav-logo h1{
-    color: white;
+    color: greenyellow;
 }
 .nav-container{
 background-size: cover;
@@ -25,12 +25,12 @@ background-size: cover;
 button {
     color: white;
     cursor: pointer;
-    background-color: dodgerblue;
+    background-color: rgb(116, 189, 6);
     width: 9em;
     height: 3em;
     border-radius: 30em;
     font-size: 15px;
-    font-family: inherit;
+    font-family: sans-serif;
     border: none;
     position: relative;
     overflow: hidden;
@@ -48,7 +48,7 @@ button::before {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, dodgerblue 0%, RoyalBlue 100%);
+    background-image: linear-gradient(to right, greenyellow 0%, rgb(116, 189, 6) 100%);
     transition: .5s ease;
     display: block;
     z-index: -1;

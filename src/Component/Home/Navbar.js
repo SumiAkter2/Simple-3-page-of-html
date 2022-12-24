@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-logo">
           <img src={icon} alt="brand-logo" />
-          <h1>Life Nature</h1>
+          <h1>Green Nature</h1>
         </div>
         <div>
           <Link to="/">

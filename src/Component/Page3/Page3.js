@@ -10,7 +10,7 @@ const Page3 = () => {
         <img src={img2} alt="" />
       </div>
       <div className="right-content-page3">
-        <small>Lorem ipsum dolor sit, amet consectetur .</small>
+        <small>We are Green Creatives.</small>
         <h1>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias saepe
         </h1>
