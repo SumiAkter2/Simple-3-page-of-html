@@ -1,0 +1,79 @@
+.nav-logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo h1{
+    color: white;
+}
+.nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin:0  40px;
+}
+button {
+    color: white;
+    cursor: pointer;
+    background-color: dodgerblue;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-left: 20px;
+    /* box-shadow: 6px 6px 10px white inset; */
+        /* -6px -6px 12px #ffffff; */
+}
+
+button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, dodgerblue 0%, RoyalBlue 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 9em;
+}
+.Container{
+background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/banner.jpg');
+ height: 100vh;
+}
+.body-container{
+     text-align: center;
+     width: 900px;
+     margin: auto;
+    color: white;
+}
+.body-container h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.body-container p{
+    font-size: 20px;
+    font-weight: 700;
+    /* color: dodgerblue; */
+}
