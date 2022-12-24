@@ -1,3 +1,4 @@
+/* ============content===================== */
 .content {
     text-align: center;
    padding: 20px;
@@ -12,6 +13,7 @@
    font-family: sans-serif;
    line-height: 1.5;
 }
+/* =====================img section========================== */
 .img-content{
     display: flex;
     justify-content: space-around;

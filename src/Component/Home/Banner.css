@@ -1,3 +1,4 @@
+/* =============body content========================= */
 .body-container {
     display: flex;
     justify-content: center;
@@ -21,7 +22,7 @@
     line-height: 1.5;
     font-family:   sans-serif;
 }
-
+/* ================banner img============================== */
 .left-content img {
     width: 600px;
     height: 400px;

@@ -1,3 +1,4 @@
+/* =========================nav-logo==================== */
 .nav-logo img{
     width: 60px;
     height: 60px;
@@ -12,6 +13,7 @@
 .nav-logo h1{
     color: greenyellow;
 }
+/* -==================nav-container===================== */
 .nav-container{
 background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +24,7 @@ background-size: cover;
     height: 100px;
     padding:0  40px;
 }
+/*================================== button================ */
 button {
     color: white;
     cursor: pointer;
