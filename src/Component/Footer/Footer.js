@@ -7,12 +7,12 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <h5 style={{ paddingTop: "20px" }}>
+      <h5 style={{ paddingTop: "40px" }}>
         Copyright &copy; 2022 - All right reserved by GREEN NATURE
       </h5>
       <div className="social-content">
         <p>
-          <AiFillInstagram size="30px" className="social-logo" />
+          <AiFillInstagram size="28px" className="social-logo" />
           <BsFacebook size="25px" className="social-logo" />
           <GrTwitter size="25px" className="social-logo" />
         </p>

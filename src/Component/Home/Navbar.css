@@ -2,7 +2,7 @@
     width: 60px;
     height: 60px;
     margin-right: 5px;
-    fill: green;
+    fill: rgb(4, 162, 4);
 }
 .nav-logo{
     display: flex;
@@ -26,7 +26,7 @@ button {
     color: white;
     cursor: pointer;
     background-color: rgb(116, 189, 6);
-    width: 9em;
+    width: 8em;
     height: 3em;
     border-radius: 30em;
     font-size: 15px;

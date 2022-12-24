@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../../assets/logo.png";
+import icon from "../../assets/Green-Leaves-PNG-Photos.png";
 
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -20,7 +20,10 @@ const Navbar = () => {
             <button>Page 2</button>
           </Link>
           <Link to="/page3">
-            <button>page 3</button>
+            <button>Page 3</button>
+          </Link>
+          <Link to="/page3">
+            <button>Contact</button>
           </Link>
         </div>
       </div>

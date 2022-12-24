@@ -6,6 +6,11 @@
 }
 .content h1{
     color: rgb(17, 247, 17);
+    padding-bottom: 40px;
+}
+.content p {
+   font-family: sans-serif;
+   line-height: 1.5;
 }
 .img-content{
     display: flex;

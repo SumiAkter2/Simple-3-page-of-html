@@ -9,6 +9,10 @@ margin-right: 10px;
 }
 .social-logo{
     margin-right: 10px;
+    cursor: pointer;
+}
+.social-logo:hover{
+    color: white;
 }
 
 .social-content{
