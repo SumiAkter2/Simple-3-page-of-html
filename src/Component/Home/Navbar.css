@@ -13,12 +13,14 @@
     color: white;
 }
 .nav-container{
-
+background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/banner.jpg');
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    margin:0  40px;
+    padding:0  40px;
 }
 button {
     color: white;
@@ -55,25 +57,38 @@ button::before {
 button:hover::before {
     width: 9em;
 }
+.Button{
+    margin-left: 0;
+    margin-top: 20px;
+}
 .Container{
-background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../../assets/images/banner.jpg');
+/* background-image:linear-gradient( dodgerblue,white); */
  height: 100vh;
 }
 .body-container{
-     text-align: center;
-     width: 900px;
-     margin: auto;
-    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-align: start;
+    height: 500px;
+    margin: 0 20px;
+   
 }
 .body-container h1{
-    margin-top: 100px;
-    font-weight: 700;
+    color: dodgerblue;
+    font-weight: 600;
+    margin-bottom: 30px;
     font-size: 35px;
 }
 .body-container p{
     font-size: 20px;
-    font-weight: 700;
-    /* color: dodgerblue; */
+   
+    
+}
+.left-content img{
+width: 400px;
+height: 400px;
+}
+.right-content{
+    padding: 40px;
 }
