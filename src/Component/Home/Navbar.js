@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/page3">
             <button>Page 3</button>
           </Link>
-          <Link to="/page3">
+          <Link to="*">
             <button>Contact</button>
           </Link>
         </div>
